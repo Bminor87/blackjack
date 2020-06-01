@@ -1,11 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  width: 100vw;
   height: 100vh;
+  overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background: url("/assets/res/blackjack.jpg");
-
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("/assets/res/blackjack.jpg")
+  no-repeat center center/cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
