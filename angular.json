@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "blackjack"
+    }
+  },
+  "defaultProject": "blackjack",
+  "cli": {
+    "analytics": false
+  }
 }
